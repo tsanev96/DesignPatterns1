@@ -1,13 +1,17 @@
 import memento.Editor;
 import memento.History;
+import state.Brush;
+import state.Canvas;
+import state.Eraser;
+import state.Selection;
 
 public class Main {
     public static void main(String[] args) {
-        Main.memento();
+//        Main.memento();
+        Main.state();
     }
 
     public static void memento() {
-        // Memento pattern
         var editor = new Editor();
         var history = new History();
 
@@ -24,5 +28,19 @@ public class Main {
         System.out.println(editor.getContent()); // b
     }
 
+    public static void state() {
+        var canvas = new Canvas();
 
+        canvas.setCurrentTool(new Brush());
+        canvas.mouseDown();
+        canvas.mouseUp();
+
+        canvas.setCurrentTool(new Selection());
+        canvas.mouseDown();
+        canvas.mouseUp();
+
+        canvas.setCurrentTool(new Eraser());
+        canvas.mouseDown();
+        canvas.mouseUp();
+    }
 }
