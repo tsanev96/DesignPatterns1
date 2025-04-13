@@ -1,3 +1,5 @@
+import Iterator.BrowserHistory;
+import Iterator.Iterator;
 import memento.Editor;
 import memento.History;
 import state.Brush;
@@ -7,8 +9,13 @@ import state.Selection;
 
 public class Main {
     public static void main(String[] args) {
+        // Simplicity is the ultimate sophistication
+
 //        Main.memento();
-        Main.state();
+//        Main.state();
+        Main.iterator();
+
+
     }
 
     public static void memento() {
@@ -29,6 +36,8 @@ public class Main {
     }
 
     public static void state() {
+        // Open closed principles - classes should be open for extensions but closed for modification.
+        // Adding new functionality without changing the existing code, supporting new function by adding new classes.
         var canvas = new Canvas();
 
         canvas.setCurrentTool(new Brush());
@@ -42,5 +51,21 @@ public class Main {
         canvas.setCurrentTool(new Eraser());
         canvas.mouseDown();
         canvas.mouseUp();
+    }
+
+    public static void iterator() {
+        var browserHistory = new BrowserHistory();
+        browserHistory.add("google.com");
+        browserHistory.add("stackoverflow.com");
+        browserHistory.add("youtube.com");
+//        browserHistory.pop();
+
+        Iterator<String> iterator = browserHistory.createIterator();
+
+        while (iterator.hasNext()) {
+           var url = iterator.current();
+           System.out.println(url);
+           iterator.next();
+        }
     }
 }
