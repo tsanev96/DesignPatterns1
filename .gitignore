@@ -15,7 +15,7 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-src/CheckBox.java
-src/MainNO.java
-src/TextBox.java
-src/essentials
+Patterns/src/CheckBox.java
+Patterns/src/MainNO.java
+Patterns/src/TextBox.java
+Patterns/src/essentials

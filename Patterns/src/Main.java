@@ -63,9 +63,9 @@ public class Main {
         Iterator<String> iterator = browserHistory.createIterator();
 
         while (iterator.hasNext()) {
-           var url = iterator.current();
-           System.out.println(url);
-           iterator.next();
+            var url = iterator.current();
+            System.out.println(url);
+            iterator.next();
         }
     }
 }

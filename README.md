@@ -1,1 +1,1 @@
-# DesignPatterns1
+# Design Patterns demos and exercises
