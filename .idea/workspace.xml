@@ -5,26 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c58eb36a-ecf1-4857-8b03-4277153d7346" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Patterns/src/Iterator/BrowserHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatterns1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/Exercises.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iterator/BrowserHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/Iterator/Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memento/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/memento/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memento/EditorState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/memento/EditorState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memento/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/memento/History.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/Brush.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/state/Brush.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/state/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/Eraser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/state/Eraser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/state/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/state/Tool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/ToolType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/state/ToolType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/strategy/AES.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/strategy/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/strategy/DES.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/strategy/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/strategy/EncryptionAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/iterator/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/memento/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/state/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/strategy/BlackAndWhiteFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/strategy/Compressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/strategy/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/strategy/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/strategy/GrayScaleFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/strategy/ImageStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/strategy/JPEGCompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/strategy/PNGCompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/template/AuditTrail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/template/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/template/GenerateReportTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/template/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/src/template/TransferMoneyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns/src/Iterator/BrowserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/iterator/BrowserHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns/src/Iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/iterator/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,30 +56,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/radoslavtsanev/coding/IdeaProjects/DesignPatterns1/Patterns/PatternsModule/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Demo.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Template.Demo.executor": "Run",
+    "Application.memento.Demo.executor": "Run",
+    "Application.state.Demo.executor": "Run",
+    "Application.strategy.Demo (1).executor": "Run",
+    "Application.strategy.Demo.executor": "Run",
+    "Application.template.Demo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/radoslavtsanev/coding/IdeaProjects/DesignPatterns1/Exercises/src/iterator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/radoslavtsanev/coding/IdeaProjects/DesignPatterns1/Patterns/PatternsModule/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Demo">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Exercises/src/iterator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.template.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="iterator.Demo" />
-      <module name="Exercises" />
+      <module name="Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="iterator.*" />
@@ -85,17 +104,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Exercises" />
+      <module name="Patterns" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="memento.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memento.Demo" />
       <module name="Patterns" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="state.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="state.Demo" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="strategy.Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategy.Demo" />
+      <module name="Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="template.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="template.Demo" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,9 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.template.Demo" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.memento.Demo" />
+        <item itemvalue="Application.state.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +215,10 @@
       <workItem from="1744639384859" duration="413000" />
       <workItem from="1744653687411" duration="282000" />
       <workItem from="1744654083384" duration="1250000" />
+      <workItem from="1744657489903" duration="7227000" />
+      <workItem from="1744716288469" duration="51000" />
+      <workItem from="1744716370794" duration="317000" />
+      <workItem from="1744716739726" duration="5222000" />
     </task>
     <servers />
   </component>
@@ -168,11 +237,6 @@
           <url>file://$PROJECT_DIR$/Patterns/PatternsModule/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Patterns/src/Main.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
